@@ -1,0 +1,9 @@
+CREATE TABLE stocks (stock_id INTEGER PRIMARY KEY AUTOINCREMENT, stock_name TEXT, is_active INTEGER);
+
+
+
+CREATE TABLE stock_prices (id INTEGER PRIMARY KEY AUTOINCREMENT, stock_id TEXT, stock_date TEXT, stock_open REAL, stock_high REAL, stock_low REAL, stock_close REAL, stock_volume REAL, stock_dividend REAL, stock_split REAL, stock_adj_open REAL,stock_adj_high REAL,stock_adj_low REAL,stock_adj_close REAL,stock_adj_volume REAL,stock_is_active INTEGER);
+
+
+
+step1 - sqlite3 with xamp

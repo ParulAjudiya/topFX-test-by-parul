@@ -1,0 +1,24 @@
+2018-10-02 19:39:23 Notice: Notice (8): Undefined property: App\Shell\StockIntegrationShell::$StockPrices in [C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\Shell.php, line 618]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Console\Shell::__get() - CORE\src\Console\Shell.php, line 618
+App\Shell\StockIntegrationShell::main() - APP/Shell\StockIntegrationShell.php, line 22
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 532
+Cake\Console\CommandRunner::runShell() - CORE\src\Console\CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 164
+[main] - ROOT\bin\cake.php, line 12
+
+
+
+2018-10-02 19:40:16 Notice: Notice (8): Undefined property: App\Shell\StockIntegrationShell::$StockPrices in [C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\Shell.php, line 618]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Console\Shell::__get() - CORE\src\Console\Shell.php, line 618
+App\Shell\StockIntegrationShell::main() - APP/Shell\StockIntegrationShell.php, line 22
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 532
+Cake\Console\CommandRunner::runShell() - CORE\src\Console\CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 164
+[main] - ROOT\bin\cake.php, line 12
+
+
+

@@ -1,0 +1,1050 @@
+2018-09-30 19:46:18 Error: [RuntimeException] Unknown command `cake stocksave_shell`. Run `cake --help` to get the list of valid commands. in C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php on line 321
+Stack Trace:
+#0 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(159): Cake\Console\CommandRunner->resolveName(Object(Cake\Console\CommandCollection), Object(Cake\Console\ConsoleIo), 'stocksave_shell')
+#1 C:\xampp\htdocs\topFXtestv1\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#2 {main}
+
+
+2018-09-30 19:46:30 Error: [RuntimeException] Unknown command `cake stocksave_shell.php`. Run `cake --help` to get the list of valid commands. in C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php on line 321
+Stack Trace:
+#0 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(159): Cake\Console\CommandRunner->resolveName(Object(Cake\Console\CommandCollection), Object(Cake\Console\ConsoleIo), 'stocksave_shell...')
+#1 C:\xampp\htdocs\topFXtestv1\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#2 {main}
+
+
+2018-09-30 19:47:13 Error: [RuntimeException] Unknown command `cake __stocksave`. Run `cake --help` to get the list of valid commands. in C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php on line 321
+Stack Trace:
+#0 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(159): Cake\Console\CommandRunner->resolveName(Object(Cake\Console\CommandCollection), Object(Cake\Console\ConsoleIo), '__stocksave')
+#1 C:\xampp\htdocs\topFXtestv1\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#2 {main}
+
+
+2018-09-30 19:47:24 Error: [Cake\Database\Exception] Cannot describe stock_prices. It has 0 columns. in C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 99
+Stack Trace:
+#0 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(63): Cake\Database\Schema\Collection->describe('stock_prices', Array)
+#1 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Table.php(548): Cake\Database\Schema\CachedCollection->describe('stock_prices')
+#2 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Query.php(271): Cake\ORM\Table->getSchema()
+#3 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Query.php(169): Cake\ORM\Query->addDefaultTypes(Object(App\Model\Table\StockPricesTable))
+#4 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Table.php(1758): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(App\Model\Table\StockPricesTable))
+#5 C:\xampp\htdocs\topFXtestv1\src\Controller\StocksController.php(98): Cake\ORM\Table->query()
+#6 C:\xampp\htdocs\topFXtestv1\src\Shell\StocksaveShell.php(10): App\Controller\StocksController->savestocks()
+#7 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\Console\Shell.php(532): App\Shell\StocksaveShell->main()
+#8 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(342): Cake\Console\Shell->runCommand(Array, true)
+#9 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(App\Shell\StocksaveShell), Array)
+#10 C:\xampp\htdocs\topFXtestv1\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#11 {main}
+
+
+2018-09-30 19:55:53 Error: [Error] Call to undefined method App\Controller\StocksController::savestocks() in C:\xampp\htdocs\topFXtestv1\src\Shell\Stocksave1Shell.php on line 10
+Stack Trace:
+#0 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\Console\Shell.php(532): App\Shell\Stocksave1Shell->main()
+#1 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(342): Cake\Console\Shell->runCommand(Array, true)
+#2 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(App\Shell\Stocksave1Shell), Array)
+#3 C:\xampp\htdocs\topFXtestv1\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#4 {main}
+
+
+2018-09-30 19:56:25 Error: [Cake\Database\Exception] Cannot describe stock_prices. It has 0 columns. in C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 99
+Stack Trace:
+#0 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(63): Cake\Database\Schema\Collection->describe('stock_prices', Array)
+#1 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Table.php(548): Cake\Database\Schema\CachedCollection->describe('stock_prices')
+#2 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Query.php(271): Cake\ORM\Table->getSchema()
+#3 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Query.php(169): Cake\ORM\Query->addDefaultTypes(Object(App\Model\Table\StockPricesTable))
+#4 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Table.php(1758): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(App\Model\Table\StockPricesTable))
+#5 C:\xampp\htdocs\topFXtestv1\src\Controller\StocksController.php(98): Cake\ORM\Table->query()
+#6 C:\xampp\htdocs\topFXtestv1\src\Shell\Stocksave1Shell.php(10): App\Controller\StocksController->savestocks()
+#7 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\Console\Shell.php(532): App\Shell\Stocksave1Shell->main()
+#8 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(342): Cake\Console\Shell->runCommand(Array, true)
+#9 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(App\Shell\Stocksave1Shell), Array)
+#10 C:\xampp\htdocs\topFXtestv1\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#11 {main}
+
+
+2018-09-30 20:00:19 Error: [Cake\Database\Exception] Cannot describe stock_prices. It has 0 columns. in C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 99
+Stack Trace:
+#0 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(63): Cake\Database\Schema\Collection->describe('stock_prices', Array)
+#1 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Table.php(548): Cake\Database\Schema\CachedCollection->describe('stock_prices')
+#2 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Query.php(271): Cake\ORM\Table->getSchema()
+#3 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Query.php(169): Cake\ORM\Query->addDefaultTypes(Object(App\Model\Table\StockPricesTable))
+#4 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Table.php(1758): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(App\Model\Table\StockPricesTable))
+#5 C:\xampp\htdocs\topFXtestv1\src\Shell\Stocksave1Shell.php(69): Cake\ORM\Table->query()
+#6 C:\xampp\htdocs\topFXtestv1\src\Shell\Stocksave1Shell.php(13): App\Shell\Stocksave1Shell->savestocks()
+#7 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\Console\Shell.php(532): App\Shell\Stocksave1Shell->main()
+#8 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(342): Cake\Console\Shell->runCommand(Array, true)
+#9 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(App\Shell\Stocksave1Shell), Array)
+#10 C:\xampp\htdocs\topFXtestv1\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#11 {main}
+
+
+2018-09-30 20:06:09 Error: [Cake\Database\Exception] Cannot describe stock_prices. It has 0 columns. in C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 99
+Stack Trace:
+#0 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(63): Cake\Database\Schema\Collection->describe('stock_prices', Array)
+#1 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Table.php(548): Cake\Database\Schema\CachedCollection->describe('stock_prices')
+#2 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Query.php(271): Cake\ORM\Table->getSchema()
+#3 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Query.php(169): Cake\ORM\Query->addDefaultTypes(Object(App\Model\Table\StockPricesTable))
+#4 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Table.php(1758): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(App\Model\Table\StockPricesTable))
+#5 C:\xampp\htdocs\topFXtestv1\src\Shell\Stocksave1Shell.php(71): Cake\ORM\Table->query()
+#6 C:\xampp\htdocs\topFXtestv1\src\Shell\Stocksave1Shell.php(15): App\Shell\Stocksave1Shell->savestocks()
+#7 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\Console\Shell.php(532): App\Shell\Stocksave1Shell->main()
+#8 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(342): Cake\Console\Shell->runCommand(Array, true)
+#9 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(App\Shell\Stocksave1Shell), Array)
+#10 C:\xampp\htdocs\topFXtestv1\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#11 {main}
+
+
+2018-09-30 20:08:32 Error: [Cake\Database\Exception] Cannot describe stock_prices. It has 0 columns. in C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 99
+Stack Trace:
+#0 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(63): Cake\Database\Schema\Collection->describe('stock_prices', Array)
+#1 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Table.php(548): Cake\Database\Schema\CachedCollection->describe('stock_prices')
+#2 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Query.php(271): Cake\ORM\Table->getSchema()
+#3 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Query.php(169): Cake\ORM\Query->addDefaultTypes(Object(App\Model\Table\StockPricesTable))
+#4 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Table.php(1758): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(App\Model\Table\StockPricesTable))
+#5 C:\xampp\htdocs\topFXtestv1\src\Shell\Stocksave1Shell.php(71): Cake\ORM\Table->query()
+#6 C:\xampp\htdocs\topFXtestv1\src\Shell\Stocksave1Shell.php(15): App\Shell\Stocksave1Shell->savestocks()
+#7 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\Console\Shell.php(532): App\Shell\Stocksave1Shell->main()
+#8 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(342): Cake\Console\Shell->runCommand(Array, true)
+#9 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(App\Shell\Stocksave1Shell), Array)
+#10 C:\xampp\htdocs\topFXtestv1\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#11 {main}
+
+
+2018-09-30 20:37:12 Error: [Cake\Database\Exception] Cannot describe stock_prices. It has 0 columns. in C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 99
+Stack Trace:
+#0 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(63): Cake\Database\Schema\Collection->describe('stock_prices', Array)
+#1 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Table.php(548): Cake\Database\Schema\CachedCollection->describe('stock_prices')
+#2 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Query.php(271): Cake\ORM\Table->getSchema()
+#3 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Query.php(169): Cake\ORM\Query->addDefaultTypes(Object(App\Model\Table\StockPricesTable))
+#4 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Table.php(1758): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(App\Model\Table\StockPricesTable))
+#5 C:\xampp\htdocs\topFXtestv1\src\Shell\Stocksave1Shell.php(71): Cake\ORM\Table->query()
+#6 C:\xampp\htdocs\topFXtestv1\src\Shell\Stocksave1Shell.php(15): App\Shell\Stocksave1Shell->savestocks()
+#7 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\Console\Shell.php(532): App\Shell\Stocksave1Shell->main()
+#8 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(342): Cake\Console\Shell->runCommand(Array, true)
+#9 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(App\Shell\Stocksave1Shell), Array)
+#10 C:\xampp\htdocs\topFXtestv1\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#11 {main}
+
+
+2018-09-30 20:47:33 Error: [Cake\Database\Exception] Cannot describe stock_prices. It has 0 columns. in C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 99
+Stack Trace:
+#0 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(63): Cake\Database\Schema\Collection->describe('stock_prices', Array)
+#1 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Table.php(548): Cake\Database\Schema\CachedCollection->describe('stock_prices')
+#2 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Query.php(271): Cake\ORM\Table->getSchema()
+#3 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Query.php(169): Cake\ORM\Query->addDefaultTypes(Object(App\Model\Table\StockPricesTable))
+#4 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Table.php(1758): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(App\Model\Table\StockPricesTable))
+#5 C:\xampp\htdocs\topFXtestv1\src\Shell\Stocksave1Shell.php(71): Cake\ORM\Table->query()
+#6 C:\xampp\htdocs\topFXtestv1\src\Shell\Stocksave1Shell.php(15): App\Shell\Stocksave1Shell->savestocks()
+#7 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\Console\Shell.php(532): App\Shell\Stocksave1Shell->main()
+#8 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(342): Cake\Console\Shell->runCommand(Array, true)
+#9 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(App\Shell\Stocksave1Shell), Array)
+#10 C:\xampp\htdocs\topFXtestv1\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#11 {main}
+
+
+2018-09-30 20:56:45 Error: [Cake\Database\Exception] Cannot describe stock_prices. It has 0 columns. in C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 99
+Stack Trace:
+#0 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(63): Cake\Database\Schema\Collection->describe('stock_prices', Array)
+#1 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Table.php(548): Cake\Database\Schema\CachedCollection->describe('stock_prices')
+#2 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Query.php(271): Cake\ORM\Table->getSchema()
+#3 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Query.php(169): Cake\ORM\Query->addDefaultTypes(Object(App\Model\Table\StockPricesTable))
+#4 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Table.php(1758): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(App\Model\Table\StockPricesTable))
+#5 C:\xampp\htdocs\topFXtestv1\src\Shell\Stocksave1Shell.php(71): Cake\ORM\Table->query()
+#6 C:\xampp\htdocs\topFXtestv1\src\Shell\Stocksave1Shell.php(15): App\Shell\Stocksave1Shell->savestocks()
+#7 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\Console\Shell.php(532): App\Shell\Stocksave1Shell->main()
+#8 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(342): Cake\Console\Shell->runCommand(Array, true)
+#9 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(App\Shell\Stocksave1Shell), Array)
+#10 C:\xampp\htdocs\topFXtestv1\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#11 {main}
+
+
+2018-09-30 20:58:22 Error: [Cake\Database\Exception] Cannot describe stock_prices. It has 0 columns. in C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 102
+Stack Trace:
+#0 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(63): Cake\Database\Schema\Collection->describe('stock_prices', Array)
+#1 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Table.php(548): Cake\Database\Schema\CachedCollection->describe('stock_prices')
+#2 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Query.php(271): Cake\ORM\Table->getSchema()
+#3 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Query.php(169): Cake\ORM\Query->addDefaultTypes(Object(App\Model\Table\StockPricesTable))
+#4 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Table.php(1758): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(App\Model\Table\StockPricesTable))
+#5 C:\xampp\htdocs\topFXtestv1\src\Shell\Stocksave1Shell.php(71): Cake\ORM\Table->query()
+#6 C:\xampp\htdocs\topFXtestv1\src\Shell\Stocksave1Shell.php(15): App\Shell\Stocksave1Shell->savestocks()
+#7 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\Console\Shell.php(532): App\Shell\Stocksave1Shell->main()
+#8 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(342): Cake\Console\Shell->runCommand(Array, true)
+#9 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(App\Shell\Stocksave1Shell), Array)
+#10 C:\xampp\htdocs\topFXtestv1\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#11 {main}
+
+
+2018-09-30 20:59:25 Error: [Cake\Database\Exception] Cannot describe stock_prices. It has 0 columns. in C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 104
+Stack Trace:
+#0 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(63): Cake\Database\Schema\Collection->describe('stock_prices', Array)
+#1 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Table.php(548): Cake\Database\Schema\CachedCollection->describe('stock_prices')
+#2 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Query.php(271): Cake\ORM\Table->getSchema()
+#3 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Query.php(169): Cake\ORM\Query->addDefaultTypes(Object(App\Model\Table\StockPricesTable))
+#4 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Table.php(1758): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(App\Model\Table\StockPricesTable))
+#5 C:\xampp\htdocs\topFXtestv1\src\Shell\Stocksave1Shell.php(71): Cake\ORM\Table->query()
+#6 C:\xampp\htdocs\topFXtestv1\src\Shell\Stocksave1Shell.php(15): App\Shell\Stocksave1Shell->savestocks()
+#7 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\Console\Shell.php(532): App\Shell\Stocksave1Shell->main()
+#8 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(342): Cake\Console\Shell->runCommand(Array, true)
+#9 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(App\Shell\Stocksave1Shell), Array)
+#10 C:\xampp\htdocs\topFXtestv1\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#11 {main}
+
+
+2018-09-30 21:00:40 Error: [Cake\Database\Exception] Cannot describe stock_prices. It has 0 columns. in C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 106
+Stack Trace:
+#0 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(63): Cake\Database\Schema\Collection->describe('stock_prices', Array)
+#1 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Table.php(548): Cake\Database\Schema\CachedCollection->describe('stock_prices')
+#2 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Query.php(271): Cake\ORM\Table->getSchema()
+#3 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Query.php(169): Cake\ORM\Query->addDefaultTypes(Object(App\Model\Table\StockPricesTable))
+#4 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Table.php(1758): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(App\Model\Table\StockPricesTable))
+#5 C:\xampp\htdocs\topFXtestv1\src\Shell\Stocksave1Shell.php(71): Cake\ORM\Table->query()
+#6 C:\xampp\htdocs\topFXtestv1\src\Shell\Stocksave1Shell.php(15): App\Shell\Stocksave1Shell->savestocks()
+#7 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\Console\Shell.php(532): App\Shell\Stocksave1Shell->main()
+#8 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(342): Cake\Console\Shell->runCommand(Array, true)
+#9 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(App\Shell\Stocksave1Shell), Array)
+#10 C:\xampp\htdocs\topFXtestv1\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#11 {main}
+
+
+2018-09-30 21:11:46 Error: [PDOException] SQLSTATE[HY000]: General error: 1 no such table: stock_prices in C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\Database\Driver\Sqlite.php on line 107
+Stack Trace:
+#0 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\Database\Driver\Sqlite.php(107): PDO->prepare('INSERT INTO "st...')
+#1 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\Database\Connection.php(275): Cake\Database\Driver\Sqlite->prepare(Object(Cake\Database\Query))
+#2 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php(68): Cake\Database\Connection->Cake\Database\{closure}()
+#3 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\Database\Connection.php(282): Cake\Core\Retry\CommandRetry->run(Object(Closure))
+#4 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\Database\Connection.php(332): Cake\Database\Connection->prepare(Object(Cake\Database\Query))
+#5 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php(68): Cake\Database\Connection->Cake\Database\{closure}()
+#6 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\Database\Connection.php(337): Cake\Core\Retry\CommandRetry->run(Object(Closure))
+#7 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\Database\Query.php(219): Cake\Database\Connection->run(Object(Cake\Database\Query))
+#8 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\Database\Connection.php(433): Cake\Database\Query->execute()
+#9 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php(68): Cake\Database\Connection->Cake\Database\{closure}()
+#10 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\Database\Connection.php(434): Cake\Core\Retry\CommandRetry->run(Object(Closure))
+#11 C:\xampp\htdocs\topFXtestv1\src\Shell\Stocksave1Shell.php(82): Cake\Database\Connection->insert('stock_prices', Array)
+#12 C:\xampp\htdocs\topFXtestv1\src\Shell\Stocksave1Shell.php(16): App\Shell\Stocksave1Shell->savestocks()
+#13 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\Console\Shell.php(532): App\Shell\Stocksave1Shell->main()
+#14 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(342): Cake\Console\Shell->runCommand(Array, true)
+#15 C:\xampp\htdocs\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(App\Shell\Stocksave1Shell), Array)
+#16 C:\xampp\htdocs\topFXtestv1\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#17 {main}
+
+
+2018-10-02 18:50:07 Error: [Error] Class 'App\Shell\App' not found in C:\xampp\php\topFXtestv1\src\Shell\FooShell.php on line 5
+Stack Trace:
+#0 C:\xampp\php\topFXtestv1\vendor\composer\ClassLoader.php(444): include()
+#1 C:\xampp\php\topFXtestv1\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\xampp\\php\\to...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Shell\\FooSh...')
+#3 [internal function]: spl_autoload_call('App\\Shell\\FooSh...')
+#4 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandScanner.php(134): is_subclass_of('App\\Shell\\FooSh...', 'Cake\\Console\\Sh...')
+#5 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandScanner.php(66): Cake\Console\CommandScanner->scanDir('C:\\xampp\\php\\to...', 'App\\Shell\\', '', Array)
+#6 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandCollection.php(218): Cake\Console\CommandScanner->scanApp()
+#7 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Http\BaseApplication.php(206): Cake\Console\CommandCollection->autoDiscover()
+#8 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(142): Cake\Http\BaseApplication->console(Object(Cake\Console\CommandCollection))
+#9 C:\xampp\php\topFXtestv1\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#10 {main}
+
+
+2018-10-02 18:50:45 Error: [Error] Class 'App\Shell\App' not found in C:\xampp\php\topFXtestv1\src\Shell\StockintegrationShell.php on line 5
+Stack Trace:
+#0 C:\xampp\php\topFXtestv1\vendor\composer\ClassLoader.php(444): include()
+#1 C:\xampp\php\topFXtestv1\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\xampp\\php\\to...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Shell\\Stock...')
+#3 [internal function]: spl_autoload_call('App\\Shell\\Stock...')
+#4 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandScanner.php(134): is_subclass_of('App\\Shell\\Stock...', 'Cake\\Console\\Sh...')
+#5 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandScanner.php(66): Cake\Console\CommandScanner->scanDir('C:\\xampp\\php\\to...', 'App\\Shell\\', '', Array)
+#6 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandCollection.php(218): Cake\Console\CommandScanner->scanApp()
+#7 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Http\BaseApplication.php(206): Cake\Console\CommandCollection->autoDiscover()
+#8 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(142): Cake\Http\BaseApplication->console(Object(Cake\Console\CommandCollection))
+#9 C:\xampp\php\topFXtestv1\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#10 {main}
+
+
+2018-10-02 18:52:00 Error: [Error] Class 'App' not found in C:\xampp\php\topFXtestv1\src\Shell\StockintegrationShell.php on line 5
+Stack Trace:
+#0 C:\xampp\php\topFXtestv1\vendor\composer\ClassLoader.php(444): include()
+#1 C:\xampp\php\topFXtestv1\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\xampp\\php\\to...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Shell\\Stock...')
+#3 [internal function]: spl_autoload_call('App\\Shell\\Stock...')
+#4 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandScanner.php(134): is_subclass_of('App\\Shell\\Stock...', 'Cake\\Console\\Sh...')
+#5 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandScanner.php(66): Cake\Console\CommandScanner->scanDir('C:\\xampp\\php\\to...', 'App\\Shell\\', '', Array)
+#6 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandCollection.php(218): Cake\Console\CommandScanner->scanApp()
+#7 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Http\BaseApplication.php(206): Cake\Console\CommandCollection->autoDiscover()
+#8 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(142): Cake\Http\BaseApplication->console(Object(Cake\Console\CommandCollection))
+#9 C:\xampp\php\topFXtestv1\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#10 {main}
+
+
+2018-10-02 18:52:21 Error: [Error] Class 'App' not found in C:\xampp\php\topFXtestv1\src\Shell\StockintegrationShell.php on line 5
+Stack Trace:
+#0 C:\xampp\php\topFXtestv1\vendor\composer\ClassLoader.php(444): include()
+#1 C:\xampp\php\topFXtestv1\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\xampp\\php\\to...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Shell\\Stock...')
+#3 [internal function]: spl_autoload_call('App\\Shell\\Stock...')
+#4 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandScanner.php(134): is_subclass_of('App\\Shell\\Stock...', 'Cake\\Console\\Sh...')
+#5 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandScanner.php(66): Cake\Console\CommandScanner->scanDir('C:\\xampp\\php\\to...', 'App\\Shell\\', '', Array)
+#6 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandCollection.php(218): Cake\Console\CommandScanner->scanApp()
+#7 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Http\BaseApplication.php(206): Cake\Console\CommandCollection->autoDiscover()
+#8 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(142): Cake\Http\BaseApplication->console(Object(Cake\Console\CommandCollection))
+#9 C:\xampp\php\topFXtestv1\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#10 {main}
+
+
+2018-10-02 18:54:11 Error: [Error] Class 'App' not found in C:\xampp\php\topFXtestv1\src\Shell\StockintegrationShell.php on line 4
+Stack Trace:
+#0 C:\xampp\php\topFXtestv1\vendor\composer\ClassLoader.php(444): include()
+#1 C:\xampp\php\topFXtestv1\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\xampp\\php\\to...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Shell\\Stock...')
+#3 [internal function]: spl_autoload_call('App\\Shell\\Stock...')
+#4 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandScanner.php(134): is_subclass_of('App\\Shell\\Stock...', 'Cake\\Console\\Sh...')
+#5 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandScanner.php(66): Cake\Console\CommandScanner->scanDir('C:\\xampp\\php\\to...', 'App\\Shell\\', '', Array)
+#6 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandCollection.php(218): Cake\Console\CommandScanner->scanApp()
+#7 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Http\BaseApplication.php(206): Cake\Console\CommandCollection->autoDiscover()
+#8 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(142): Cake\Http\BaseApplication->console(Object(Cake\Console\CommandCollection))
+#9 C:\xampp\php\topFXtestv1\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#10 {main}
+
+
+2018-10-02 18:55:03 Error: [Error] Class 'App' not found in C:\xampp\php\topFXtestv1\src\Shell\StockintegrationShell.php on line 4
+Stack Trace:
+#0 C:\xampp\php\topFXtestv1\vendor\composer\ClassLoader.php(444): include()
+#1 C:\xampp\php\topFXtestv1\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\xampp\\php\\to...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Shell\\Stock...')
+#3 [internal function]: spl_autoload_call('App\\Shell\\Stock...')
+#4 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandScanner.php(134): is_subclass_of('App\\Shell\\Stock...', 'Cake\\Console\\Sh...')
+#5 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandScanner.php(66): Cake\Console\CommandScanner->scanDir('C:\\xampp\\php\\to...', 'App\\Shell\\', '', Array)
+#6 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandCollection.php(218): Cake\Console\CommandScanner->scanApp()
+#7 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Http\BaseApplication.php(206): Cake\Console\CommandCollection->autoDiscover()
+#8 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(142): Cake\Http\BaseApplication->console(Object(Cake\Console\CommandCollection))
+#9 C:\xampp\php\topFXtestv1\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#10 {main}
+
+
+2018-10-02 18:56:26 Error: [Error] Class 'App' not found in C:\xampp\php\topFXtestv1\src\Shell\StockintegrationShell.php on line 4
+Stack Trace:
+#0 C:\xampp\php\topFXtestv1\vendor\composer\ClassLoader.php(444): include()
+#1 C:\xampp\php\topFXtestv1\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\xampp\\php\\to...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Shell\\Stock...')
+#3 [internal function]: spl_autoload_call('App\\Shell\\Stock...')
+#4 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandScanner.php(134): is_subclass_of('App\\Shell\\Stock...', 'Cake\\Console\\Sh...')
+#5 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandScanner.php(66): Cake\Console\CommandScanner->scanDir('C:\\xampp\\php\\to...', 'App\\Shell\\', '', Array)
+#6 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandCollection.php(218): Cake\Console\CommandScanner->scanApp()
+#7 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Http\BaseApplication.php(206): Cake\Console\CommandCollection->autoDiscover()
+#8 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(142): Cake\Http\BaseApplication->console(Object(Cake\Console\CommandCollection))
+#9 C:\xampp\php\topFXtestv1\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#10 {main}
+
+
+2018-10-02 18:56:56 Error: [Error] Class 'App' not found in C:\xampp\php\topFXtestv1\src\Shell\StockintegrationShell.php on line 4
+Stack Trace:
+#0 C:\xampp\php\topFXtestv1\vendor\composer\ClassLoader.php(444): include()
+#1 C:\xampp\php\topFXtestv1\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\xampp\\php\\to...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Shell\\Stock...')
+#3 [internal function]: spl_autoload_call('App\\Shell\\Stock...')
+#4 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandScanner.php(134): is_subclass_of('App\\Shell\\Stock...', 'Cake\\Console\\Sh...')
+#5 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandScanner.php(66): Cake\Console\CommandScanner->scanDir('C:\\xampp\\php\\to...', 'App\\Shell\\', '', Array)
+#6 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandCollection.php(218): Cake\Console\CommandScanner->scanApp()
+#7 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Http\BaseApplication.php(206): Cake\Console\CommandCollection->autoDiscover()
+#8 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(142): Cake\Http\BaseApplication->console(Object(Cake\Console\CommandCollection))
+#9 C:\xampp\php\topFXtestv1\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#10 {main}
+
+
+2018-10-02 19:01:32 Error: [Error] Class 'App\Shell\App' not found in C:\xampp\php\topFXtestv1\src\Shell\StockIntegrationShell.php on line 5
+Stack Trace:
+#0 C:\xampp\php\topFXtestv1\vendor\composer\ClassLoader.php(444): include()
+#1 C:\xampp\php\topFXtestv1\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\xampp\\php\\to...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Shell\\Stock...')
+#3 [internal function]: spl_autoload_call('App\\Shell\\Stock...')
+#4 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandScanner.php(134): is_subclass_of('App\\Shell\\Stock...', 'Cake\\Console\\Sh...')
+#5 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandScanner.php(66): Cake\Console\CommandScanner->scanDir('C:\\xampp\\php\\to...', 'App\\Shell\\', '', Array)
+#6 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandCollection.php(218): Cake\Console\CommandScanner->scanApp()
+#7 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Http\BaseApplication.php(206): Cake\Console\CommandCollection->autoDiscover()
+#8 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(142): Cake\Http\BaseApplication->console(Object(Cake\Console\CommandCollection))
+#9 C:\xampp\php\topFXtestv1\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#10 {main}
+
+
+2018-10-02 19:05:17 Error: [Error] Class 'App\Shell\App' not found in C:\xampp\php\topFXtestv1\src\Shell\StockIntegrationShell.php on line 6
+Stack Trace:
+#0 C:\xampp\php\topFXtestv1\vendor\composer\ClassLoader.php(444): include()
+#1 C:\xampp\php\topFXtestv1\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\xampp\\php\\to...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Shell\\Stock...')
+#3 [internal function]: spl_autoload_call('App\\Shell\\Stock...')
+#4 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandScanner.php(134): is_subclass_of('App\\Shell\\Stock...', 'Cake\\Console\\Sh...')
+#5 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandScanner.php(66): Cake\Console\CommandScanner->scanDir('C:\\xampp\\php\\to...', 'App\\Shell\\', '', Array)
+#6 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandCollection.php(218): Cake\Console\CommandScanner->scanApp()
+#7 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Http\BaseApplication.php(206): Cake\Console\CommandCollection->autoDiscover()
+#8 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(142): Cake\Http\BaseApplication->console(Object(Cake\Console\CommandCollection))
+#9 C:\xampp\php\topFXtestv1\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#10 {main}
+
+
+2018-10-02 19:06:31 Error: [Error] Class 'App\Shell\App' not found in C:\xampp\php\topFXtestv1\src\Shell\StockIntegrationShell.php on line 6
+Stack Trace:
+#0 C:\xampp\php\topFXtestv1\vendor\composer\ClassLoader.php(444): include()
+#1 C:\xampp\php\topFXtestv1\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\xampp\\php\\to...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Shell\\Stock...')
+#3 [internal function]: spl_autoload_call('App\\Shell\\Stock...')
+#4 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandScanner.php(134): is_subclass_of('App\\Shell\\Stock...', 'Cake\\Console\\Sh...')
+#5 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandScanner.php(66): Cake\Console\CommandScanner->scanDir('C:\\xampp\\php\\to...', 'App\\Shell\\', '', Array)
+#6 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandCollection.php(218): Cake\Console\CommandScanner->scanApp()
+#7 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Http\BaseApplication.php(206): Cake\Console\CommandCollection->autoDiscover()
+#8 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(142): Cake\Http\BaseApplication->console(Object(Cake\Console\CommandCollection))
+#9 C:\xampp\php\topFXtestv1\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#10 {main}
+
+
+2018-10-02 19:09:18 Error: [Error] Class 'App\Shell\App' not found in C:\xampp\php\topFXtestv1\src\Shell\StockIntegrationShell.php on line 20
+Stack Trace:
+#0 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\Shell.php(532): App\Shell\StockIntegrationShell->main()
+#1 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(342): Cake\Console\Shell->runCommand(Array, true)
+#2 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(App\Shell\StockIntegrationShell), Array)
+#3 C:\xampp\php\topFXtestv1\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#4 {main}
+
+
+2018-10-02 19:10:21 Error: [Error] Class 'App\Shell\App' not found in C:\xampp\php\topFXtestv1\src\Shell\StockIntegrationShell.php on line 20
+Stack Trace:
+#0 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\Shell.php(532): App\Shell\StockIntegrationShell->main()
+#1 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(342): Cake\Console\Shell->runCommand(Array, true)
+#2 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(App\Shell\StockIntegrationShell), Array)
+#3 C:\xampp\php\topFXtestv1\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#4 {main}
+
+
+2018-10-02 19:10:41 Error: [Error] Class 'App\Shell\StockPricesController' not found in C:\xampp\php\topFXtestv1\src\Shell\StockIntegrationShell.php on line 21
+Stack Trace:
+#0 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\Shell.php(532): App\Shell\StockIntegrationShell->main()
+#1 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(342): Cake\Console\Shell->runCommand(Array, true)
+#2 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(App\Shell\StockIntegrationShell), Array)
+#3 C:\xampp\php\topFXtestv1\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#4 {main}
+
+
+2018-10-02 19:17:24 Error: [Error] Class 'App\Shell\App' not found in C:\xampp\php\topFXtestv1\src\Shell\StockIntegrationShell.php on line 6
+Stack Trace:
+#0 C:\xampp\php\topFXtestv1\vendor\composer\ClassLoader.php(444): include()
+#1 C:\xampp\php\topFXtestv1\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\xampp\\php\\to...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Shell\\Stock...')
+#3 [internal function]: spl_autoload_call('App\\Shell\\Stock...')
+#4 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandScanner.php(134): is_subclass_of('App\\Shell\\Stock...', 'Cake\\Console\\Sh...')
+#5 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandScanner.php(66): Cake\Console\CommandScanner->scanDir('C:\\xampp\\php\\to...', 'App\\Shell\\', '', Array)
+#6 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandCollection.php(218): Cake\Console\CommandScanner->scanApp()
+#7 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Http\BaseApplication.php(206): Cake\Console\CommandCollection->autoDiscover()
+#8 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(142): Cake\Http\BaseApplication->console(Object(Cake\Console\CommandCollection))
+#9 C:\xampp\php\topFXtestv1\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#10 {main}
+
+
+2018-10-02 19:17:29 Error: [Error] Class 'App\Shell\App' not found in C:\xampp\php\topFXtestv1\src\Shell\StockIntegrationShell.php on line 6
+Stack Trace:
+#0 C:\xampp\php\topFXtestv1\vendor\composer\ClassLoader.php(444): include()
+#1 C:\xampp\php\topFXtestv1\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\xampp\\php\\to...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Shell\\Stock...')
+#3 [internal function]: spl_autoload_call('App\\Shell\\Stock...')
+#4 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandScanner.php(134): is_subclass_of('App\\Shell\\Stock...', 'Cake\\Console\\Sh...')
+#5 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandScanner.php(66): Cake\Console\CommandScanner->scanDir('C:\\xampp\\php\\to...', 'App\\Shell\\', '', Array)
+#6 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandCollection.php(218): Cake\Console\CommandScanner->scanApp()
+#7 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Http\BaseApplication.php(206): Cake\Console\CommandCollection->autoDiscover()
+#8 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(142): Cake\Http\BaseApplication->console(Object(Cake\Console\CommandCollection))
+#9 C:\xampp\php\topFXtestv1\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#10 {main}
+
+
+2018-10-02 19:17:50 Error: [ParseError] syntax error, unexpected 'App' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST) in C:\xampp\php\topFXtestv1\src\Shell\StockIntegrationShell.php on line 13
+Stack Trace:
+#0 C:\xampp\php\topFXtestv1\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\xampp\\php\\to...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Shell\\Stock...')
+#2 [internal function]: spl_autoload_call('App\\Shell\\Stock...')
+#3 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandScanner.php(134): is_subclass_of('App\\Shell\\Stock...', 'Cake\\Console\\Sh...')
+#4 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandScanner.php(66): Cake\Console\CommandScanner->scanDir('C:\\xampp\\php\\to...', 'App\\Shell\\', '', Array)
+#5 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandCollection.php(218): Cake\Console\CommandScanner->scanApp()
+#6 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Http\BaseApplication.php(206): Cake\Console\CommandCollection->autoDiscover()
+#7 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(142): Cake\Http\BaseApplication->console(Object(Cake\Console\CommandCollection))
+#8 C:\xampp\php\topFXtestv1\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#9 {main}
+
+
+2018-10-02 19:18:08 Error: [Error] Class 'App\Shell\App' not found in C:\xampp\php\topFXtestv1\src\Shell\StockIntegrationShell.php on line 20
+Stack Trace:
+#0 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\Shell.php(532): App\Shell\StockIntegrationShell->main()
+#1 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(342): Cake\Console\Shell->runCommand(Array, true)
+#2 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(App\Shell\StockIntegrationShell), Array)
+#3 C:\xampp\php\topFXtestv1\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#4 {main}
+
+
+2018-10-02 19:18:28 Error: [Error] Class 'App\Shell\StockPricesController' not found in C:\xampp\php\topFXtestv1\src\Shell\StockIntegrationShell.php on line 21
+Stack Trace:
+#0 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\Shell.php(532): App\Shell\StockIntegrationShell->main()
+#1 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(342): Cake\Console\Shell->runCommand(Array, true)
+#2 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(App\Shell\StockIntegrationShell), Array)
+#3 C:\xampp\php\topFXtestv1\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#4 {main}
+
+
+2018-10-02 19:21:27 Error: [Error] Class 'App' not found in C:\xampp\php\topFXtestv1\src\Shell\StockIntegrationShell.php on line 5
+Stack Trace:
+#0 C:\xampp\php\topFXtestv1\vendor\composer\ClassLoader.php(444): include()
+#1 C:\xampp\php\topFXtestv1\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\xampp\\php\\to...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Shell\\Stock...')
+#3 [internal function]: spl_autoload_call('App\\Shell\\Stock...')
+#4 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandScanner.php(134): is_subclass_of('App\\Shell\\Stock...', 'Cake\\Console\\Sh...')
+#5 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandScanner.php(66): Cake\Console\CommandScanner->scanDir('C:\\xampp\\php\\to...', 'App\\Shell\\', '', Array)
+#6 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandCollection.php(218): Cake\Console\CommandScanner->scanApp()
+#7 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Http\BaseApplication.php(206): Cake\Console\CommandCollection->autoDiscover()
+#8 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(142): Cake\Http\BaseApplication->console(Object(Cake\Console\CommandCollection))
+#9 C:\xampp\php\topFXtestv1\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#10 {main}
+
+
+2018-10-02 19:21:33 Error: [Error] Class 'App' not found in C:\xampp\php\topFXtestv1\src\Shell\StockIntegrationShell.php on line 5
+Stack Trace:
+#0 C:\xampp\php\topFXtestv1\vendor\composer\ClassLoader.php(444): include()
+#1 C:\xampp\php\topFXtestv1\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\xampp\\php\\to...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Shell\\Stock...')
+#3 [internal function]: spl_autoload_call('App\\Shell\\Stock...')
+#4 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandScanner.php(134): is_subclass_of('App\\Shell\\Stock...', 'Cake\\Console\\Sh...')
+#5 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandScanner.php(66): Cake\Console\CommandScanner->scanDir('C:\\xampp\\php\\to...', 'App\\Shell\\', '', Array)
+#6 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandCollection.php(218): Cake\Console\CommandScanner->scanApp()
+#7 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Http\BaseApplication.php(206): Cake\Console\CommandCollection->autoDiscover()
+#8 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(142): Cake\Http\BaseApplication->console(Object(Cake\Console\CommandCollection))
+#9 C:\xampp\php\topFXtestv1\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#10 {main}
+
+
+2018-10-02 19:30:17 Error: [Error] Class 'App\Shell\App' not found in C:\xampp\php\topFXtestv1\src\Shell\StockIntegrationShell.php on line 19
+Stack Trace:
+#0 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\Shell.php(532): App\Shell\StockIntegrationShell->main()
+#1 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(342): Cake\Console\Shell->runCommand(Array, true)
+#2 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(App\Shell\StockIntegrationShell), Array)
+#3 C:\xampp\php\topFXtestv1\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#4 {main}
+
+
+2018-10-02 19:36:02 Error: [ParseError] syntax error, unexpected 'public' (T_PUBLIC) in C:\xampp\php\topFXtestv1\src\Shell\StockIntegrationShell.php on line 19
+Stack Trace:
+#0 C:\xampp\php\topFXtestv1\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\xampp\\php\\to...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Shell\\Stock...')
+#2 [internal function]: spl_autoload_call('App\\Shell\\Stock...')
+#3 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandScanner.php(134): is_subclass_of('App\\Shell\\Stock...', 'Cake\\Console\\Sh...')
+#4 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandScanner.php(66): Cake\Console\CommandScanner->scanDir('C:\\xampp\\php\\to...', 'App\\Shell\\', '', Array)
+#5 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandCollection.php(218): Cake\Console\CommandScanner->scanApp()
+#6 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Http\BaseApplication.php(206): Cake\Console\CommandCollection->autoDiscover()
+#7 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(142): Cake\Http\BaseApplication->console(Object(Cake\Console\CommandCollection))
+#8 C:\xampp\php\topFXtestv1\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#9 {main}
+
+
+2018-10-02 19:39:23 Error: [Error] Call to a member function find() on null in C:\xampp\php\topFXtestv1\src\Shell\StockIntegrationShell.php on line 22
+Stack Trace:
+#0 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\Shell.php(532): App\Shell\StockIntegrationShell->main('AAP')
+#1 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(342): Cake\Console\Shell->runCommand(Array, true)
+#2 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(App\Shell\StockIntegrationShell), Array)
+#3 C:\xampp\php\topFXtestv1\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#4 {main}
+
+
+2018-10-02 19:40:16 Error: [Error] Call to a member function find() on null in C:\xampp\php\topFXtestv1\src\Shell\StockIntegrationShell.php on line 22
+Stack Trace:
+#0 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\Shell.php(532): App\Shell\StockIntegrationShell->main()
+#1 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(342): Cake\Console\Shell->runCommand(Array, true)
+#2 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(App\Shell\StockIntegrationShell), Array)
+#3 C:\xampp\php\topFXtestv1\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#4 {main}
+
+
+2018-10-02 19:44:16 Error: [PDOException] SQLSTATE[HY000] [14] unable to open database file in C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Driver.php on line 92
+Stack Trace:
+#0 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Driver.php(92): PDO->__construct('sqlite:\\topFXte...', '', '', Array)
+#1 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Driver\Sqlite.php(70): Cake\Database\Driver->_connect('sqlite:\\topFXte...', Array)
+#2 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php(45): Cake\Database\Driver\Sqlite->connect()
+#3 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Dialect\SqliteDialectTrait.php(165): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Sqlite))
+#4 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(52): Cake\Database\Driver\Sqlite->schemaDialect()
+#5 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(42): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Connection.php(391): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Table.php(547): Cake\Database\Connection->getSchemaCollection()
+#8 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Query.php(271): Cake\ORM\Table->getSchema()
+#9 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Query.php(169): Cake\ORM\Query->addDefaultTypes(Object(App\Model\Table\StockPricesTable))
+#10 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Table.php(1758): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(App\Model\Table\StockPricesTable))
+#11 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Table.php(1350): Cake\ORM\Table->query()
+#12 C:\xampp\php\topFXtestv1\src\Shell\StockIntegrationShell.php(23): Cake\ORM\Table->find()
+#13 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\Shell.php(532): App\Shell\StockIntegrationShell->main()
+#14 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(342): Cake\Console\Shell->runCommand(Array, true)
+#15 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(App\Shell\StockIntegrationShell), Array)
+#16 C:\xampp\php\topFXtestv1\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#17 {main}
+
+
+2018-10-02 19:48:37 Error: [PDOException] SQLSTATE[HY000] [14] unable to open database file in C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Driver.php on line 92
+Stack Trace:
+#0 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Driver.php(92): PDO->__construct('sqlite:\\topFXte...', '', '', Array)
+#1 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Driver\Sqlite.php(70): Cake\Database\Driver->_connect('sqlite:\\topFXte...', Array)
+#2 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php(45): Cake\Database\Driver\Sqlite->connect()
+#3 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Dialect\SqliteDialectTrait.php(165): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Sqlite))
+#4 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(52): Cake\Database\Driver\Sqlite->schemaDialect()
+#5 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(42): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Connection.php(391): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Table.php(547): Cake\Database\Connection->getSchemaCollection()
+#8 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Query.php(271): Cake\ORM\Table->getSchema()
+#9 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Query.php(169): Cake\ORM\Query->addDefaultTypes(Object(App\Model\Table\StockPricesTable))
+#10 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Table.php(1758): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(App\Model\Table\StockPricesTable))
+#11 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Table.php(1350): Cake\ORM\Table->query()
+#12 C:\xampp\php\topFXtestv1\src\Shell\StockIntegrationShell.php(28): Cake\ORM\Table->find()
+#13 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\Shell.php(512): App\Shell\StockIntegrationShell->show()
+#14 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(342): Cake\Console\Shell->runCommand(Array, true)
+#15 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(App\Shell\StockIntegrationShell), Array)
+#16 C:\xampp\php\topFXtestv1\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#17 {main}
+
+
+2018-10-02 19:52:42 Error: [PDOException] SQLSTATE[HY000] [14] unable to open database file in C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Driver.php on line 92
+Stack Trace:
+#0 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Driver.php(92): PDO->__construct('sqlite:\\topFXte...', '', '', Array)
+#1 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Driver\Sqlite.php(70): Cake\Database\Driver->_connect('sqlite:\\topFXte...', Array)
+#2 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php(45): Cake\Database\Driver\Sqlite->connect()
+#3 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Dialect\SqliteDialectTrait.php(165): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Sqlite))
+#4 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(52): Cake\Database\Driver\Sqlite->schemaDialect()
+#5 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(42): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Connection.php(391): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Table.php(547): Cake\Database\Connection->getSchemaCollection()
+#8 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Query.php(271): Cake\ORM\Table->getSchema()
+#9 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Query.php(169): Cake\ORM\Query->addDefaultTypes(Object(App\Model\Table\StockPricesTable))
+#10 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Table.php(1758): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(App\Model\Table\StockPricesTable))
+#11 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Table.php(1350): Cake\ORM\Table->query()
+#12 C:\xampp\php\topFXtestv1\src\Shell\StockIntegrationShell.php(28): Cake\ORM\Table->find()
+#13 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\Shell.php(512): App\Shell\StockIntegrationShell->show()
+#14 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(342): Cake\Console\Shell->runCommand(Array, true)
+#15 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(App\Shell\StockIntegrationShell), Array)
+#16 C:\xampp\php\topFXtestv1\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#17 {main}
+
+
+2018-10-02 19:53:13 Error: [Cake\Database\Exception] Cannot describe stock_prices. It has 0 columns. in C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 106
+Stack Trace:
+#0 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(63): Cake\Database\Schema\Collection->describe('stock_prices', Array)
+#1 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Table.php(548): Cake\Database\Schema\CachedCollection->describe('stock_prices')
+#2 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Query.php(271): Cake\ORM\Table->getSchema()
+#3 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Query.php(169): Cake\ORM\Query->addDefaultTypes(Object(App\Model\Table\StockPricesTable))
+#4 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Table.php(1758): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(App\Model\Table\StockPricesTable))
+#5 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Table.php(1350): Cake\ORM\Table->query()
+#6 C:\xampp\php\topFXtestv1\src\Shell\StockIntegrationShell.php(28): Cake\ORM\Table->find()
+#7 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\Shell.php(512): App\Shell\StockIntegrationShell->show()
+#8 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(342): Cake\Console\Shell->runCommand(Array, true)
+#9 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(App\Shell\StockIntegrationShell), Array)
+#10 C:\xampp\php\topFXtestv1\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#11 {main}
+
+
+2018-10-02 19:54:54 Error: [Cake\Database\Exception] Cannot describe stock_prices. It has 0 columns. in C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 106
+Stack Trace:
+#0 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(63): Cake\Database\Schema\Collection->describe('stock_prices', Array)
+#1 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Table.php(548): Cake\Database\Schema\CachedCollection->describe('stock_prices')
+#2 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Query.php(271): Cake\ORM\Table->getSchema()
+#3 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Query.php(169): Cake\ORM\Query->addDefaultTypes(Object(App\Model\Table\StockPricesTable))
+#4 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Table.php(1758): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(App\Model\Table\StockPricesTable))
+#5 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Table.php(1350): Cake\ORM\Table->query()
+#6 C:\xampp\php\topFXtestv1\src\Shell\StockIntegrationShell.php(30): Cake\ORM\Table->find('all', Array)
+#7 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\Shell.php(512): App\Shell\StockIntegrationShell->show()
+#8 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(342): Cake\Console\Shell->runCommand(Array, true)
+#9 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(App\Shell\StockIntegrationShell), Array)
+#10 C:\xampp\php\topFXtestv1\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#11 {main}
+
+
+2018-10-02 19:55:17 Error: [PDOException] SQLSTATE[HY000] [14] unable to open database file in C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Driver.php on line 92
+Stack Trace:
+#0 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Driver.php(92): PDO->__construct('sqlite:\\topFXte...', '', '', Array)
+#1 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Driver\Sqlite.php(70): Cake\Database\Driver->_connect('sqlite:\\topFXte...', Array)
+#2 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php(45): Cake\Database\Driver\Sqlite->connect()
+#3 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Dialect\SqliteDialectTrait.php(165): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Sqlite))
+#4 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(52): Cake\Database\Driver\Sqlite->schemaDialect()
+#5 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(42): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Connection.php(391): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Table.php(547): Cake\Database\Connection->getSchemaCollection()
+#8 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Query.php(271): Cake\ORM\Table->getSchema()
+#9 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Query.php(169): Cake\ORM\Query->addDefaultTypes(Object(App\Model\Table\StockPricesTable))
+#10 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Table.php(1758): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(App\Model\Table\StockPricesTable))
+#11 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Table.php(1350): Cake\ORM\Table->query()
+#12 C:\xampp\php\topFXtestv1\src\Shell\StockIntegrationShell.php(30): Cake\ORM\Table->find('all', Array)
+#13 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\Shell.php(512): App\Shell\StockIntegrationShell->show()
+#14 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(342): Cake\Console\Shell->runCommand(Array, true)
+#15 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(App\Shell\StockIntegrationShell), Array)
+#16 C:\xampp\php\topFXtestv1\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#17 {main}
+
+
+2018-10-02 19:58:28 Error: [PDOException] SQLSTATE[HY000] [14] unable to open database file in C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Driver.php on line 92
+Stack Trace:
+#0 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Driver.php(92): PDO->__construct('sqlite:\\topFXte...', '', '', Array)
+#1 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Driver\Sqlite.php(70): Cake\Database\Driver->_connect('sqlite:\\topFXte...', Array)
+#2 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php(45): Cake\Database\Driver\Sqlite->connect()
+#3 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Dialect\SqliteDialectTrait.php(165): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Sqlite))
+#4 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(52): Cake\Database\Driver\Sqlite->schemaDialect()
+#5 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(42): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Connection.php(391): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Table.php(547): Cake\Database\Connection->getSchemaCollection()
+#8 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Query.php(271): Cake\ORM\Table->getSchema()
+#9 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Query.php(169): Cake\ORM\Query->addDefaultTypes(Object(App\Model\Table\StockPricesTable))
+#10 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Table.php(1758): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(App\Model\Table\StockPricesTable))
+#11 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Table.php(1350): Cake\ORM\Table->query()
+#12 C:\xampp\php\topFXtestv1\src\Shell\StockIntegrationShell.php(33): Cake\ORM\Table->find('all', Array)
+#13 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\Shell.php(512): App\Shell\StockIntegrationShell->show()
+#14 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(342): Cake\Console\Shell->runCommand(Array, true)
+#15 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(App\Shell\StockIntegrationShell), Array)
+#16 C:\xampp\php\topFXtestv1\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#17 {main}
+
+
+2018-10-02 20:01:55 Error: [PDOException] SQLSTATE[HY000] [14] unable to open database file in C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Driver.php on line 92
+Stack Trace:
+#0 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Driver.php(92): PDO->__construct('sqlite:\\topFXte...', '', '', Array)
+#1 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Driver\Sqlite.php(70): Cake\Database\Driver->_connect('sqlite:\\topFXte...', Array)
+#2 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Driver\Sqlite.php(105): Cake\Database\Driver\Sqlite->connect()
+#3 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Connection.php(275): Cake\Database\Driver\Sqlite->prepare('SELECT * FROM s...')
+#4 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php(68): Cake\Database\Connection->Cake\Database\{closure}()
+#5 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Connection.php(282): Cake\Core\Retry\CommandRetry->run(Object(Closure))
+#6 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Connection.php(349): Cake\Database\Connection->prepare('SELECT * FROM s...')
+#7 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php(68): Cake\Database\Connection->Cake\Database\{closure}()
+#8 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Connection.php(353): Cake\Core\Retry\CommandRetry->run(Object(Closure))
+#9 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Connection.php(302): Cake\Database\Connection->query('SELECT * FROM s...')
+#10 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php(68): Cake\Database\Connection->Cake\Database\{closure}()
+#11 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Connection.php(306): Cake\Core\Retry\CommandRetry->run(Object(Closure))
+#12 C:\xampp\php\topFXtestv1\src\Shell\StockIntegrationShell.php(28): Cake\Database\Connection->execute('SELECT * FROM s...')
+#13 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\Shell.php(512): App\Shell\StockIntegrationShell->show()
+#14 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(342): Cake\Console\Shell->runCommand(Array, true)
+#15 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(App\Shell\StockIntegrationShell), Array)
+#16 C:\xampp\php\topFXtestv1\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#17 {main}
+
+
+2018-10-02 20:08:55 Error: [PDOException] SQLSTATE[HY000] [14] unable to open database file in C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Driver.php on line 92
+Stack Trace:
+#0 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Driver.php(92): PDO->__construct('sqlite:\\topFXte...', '', '', Array)
+#1 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Driver\Sqlite.php(70): Cake\Database\Driver->_connect('sqlite:\\topFXte...', Array)
+#2 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php(45): Cake\Database\Driver\Sqlite->connect()
+#3 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Dialect\SqliteDialectTrait.php(165): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Sqlite))
+#4 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(52): Cake\Database\Driver\Sqlite->schemaDialect()
+#5 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(42): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Connection.php(391): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Table.php(547): Cake\Database\Connection->getSchemaCollection()
+#8 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Query.php(271): Cake\ORM\Table->getSchema()
+#9 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Query.php(169): Cake\ORM\Query->addDefaultTypes(Object(App\Model\Table\StockPricesTable))
+#10 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Table.php(1758): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(App\Model\Table\StockPricesTable))
+#11 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Table.php(1350): Cake\ORM\Table->query()
+#12 C:\xampp\php\topFXtestv1\src\Shell\StockIntegrationShell.php(31): Cake\ORM\Table->find('all', Array)
+#13 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\Shell.php(512): App\Shell\StockIntegrationShell->show()
+#14 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(342): Cake\Console\Shell->runCommand(Array, true)
+#15 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(App\Shell\StockIntegrationShell), Array)
+#16 C:\xampp\php\topFXtestv1\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#17 {main}
+
+
+2018-10-02 20:09:09 Error: [Cake\Database\Exception] Cannot describe stock_prices. It has 0 columns. in C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 106
+Stack Trace:
+#0 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(63): Cake\Database\Schema\Collection->describe('stock_prices', Array)
+#1 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Table.php(548): Cake\Database\Schema\CachedCollection->describe('stock_prices')
+#2 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Query.php(271): Cake\ORM\Table->getSchema()
+#3 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Query.php(169): Cake\ORM\Query->addDefaultTypes(Object(App\Model\Table\StockPricesTable))
+#4 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Table.php(1758): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(App\Model\Table\StockPricesTable))
+#5 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Table.php(1350): Cake\ORM\Table->query()
+#6 C:\xampp\php\topFXtestv1\src\Shell\StockIntegrationShell.php(31): Cake\ORM\Table->find('all', Array)
+#7 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\Shell.php(512): App\Shell\StockIntegrationShell->show()
+#8 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(342): Cake\Console\Shell->runCommand(Array, true)
+#9 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(App\Shell\StockIntegrationShell), Array)
+#10 C:\xampp\php\topFXtestv1\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#11 {main}
+
+
+2018-10-02 20:09:28 Error: [PDOException] SQLSTATE[HY000] [14] unable to open database file in C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Driver.php on line 92
+Stack Trace:
+#0 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Driver.php(92): PDO->__construct('sqlite:\\topFXte...', '', '', Array)
+#1 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Driver\Sqlite.php(70): Cake\Database\Driver->_connect('sqlite:\\topFXte...', Array)
+#2 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php(45): Cake\Database\Driver\Sqlite->connect()
+#3 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Dialect\SqliteDialectTrait.php(165): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Sqlite))
+#4 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(52): Cake\Database\Driver\Sqlite->schemaDialect()
+#5 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(42): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Connection.php(391): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Table.php(547): Cake\Database\Connection->getSchemaCollection()
+#8 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Query.php(271): Cake\ORM\Table->getSchema()
+#9 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Query.php(169): Cake\ORM\Query->addDefaultTypes(Object(App\Model\Table\StockPricesTable))
+#10 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Table.php(1758): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(App\Model\Table\StockPricesTable))
+#11 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Table.php(1350): Cake\ORM\Table->query()
+#12 C:\xampp\php\topFXtestv1\src\Shell\StockIntegrationShell.php(31): Cake\ORM\Table->find('all', Array)
+#13 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\Shell.php(512): App\Shell\StockIntegrationShell->show()
+#14 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(342): Cake\Console\Shell->runCommand(Array, true)
+#15 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(App\Shell\StockIntegrationShell), Array)
+#16 C:\xampp\php\topFXtestv1\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#17 {main}
+
+
+2018-10-02 20:15:09 Error: [Error] Class 'App\Shell\App' not found in C:\xampp\php\topFXtestv1\src\Shell\StockIntegrationShell.php on line 22
+Stack Trace:
+#0 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(340): App\Shell\StockIntegrationShell->initialize()
+#1 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(App\Shell\StockIntegrationShell), Array)
+#2 C:\xampp\php\topFXtestv1\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#3 {main}
+
+
+2018-10-02 20:19:42 Error: [Error] Class 'App\Shell\App' not found in C:\xampp\php\topFXtestv1\src\Shell\StockIntegrationShell.php on line 17
+Stack Trace:
+#0 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(340): App\Shell\StockIntegrationShell->initialize()
+#1 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(App\Shell\StockIntegrationShell), Array)
+#2 C:\xampp\php\topFXtestv1\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#3 {main}
+
+
+2018-10-02 20:20:11 Error: [PDOException] SQLSTATE[HY000] [14] unable to open database file in C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Driver.php on line 92
+Stack Trace:
+#0 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Driver.php(92): PDO->__construct('sqlite:\\webroot...', '', '', Array)
+#1 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Driver\Sqlite.php(70): Cake\Database\Driver->_connect('sqlite:\\webroot...', Array)
+#2 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php(45): Cake\Database\Driver\Sqlite->connect()
+#3 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Dialect\SqliteDialectTrait.php(165): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Sqlite))
+#4 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(52): Cake\Database\Driver\Sqlite->schemaDialect()
+#5 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(42): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Connection.php(391): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Table.php(547): Cake\Database\Connection->getSchemaCollection()
+#8 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Query.php(271): Cake\ORM\Table->getSchema()
+#9 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Query.php(169): Cake\ORM\Query->addDefaultTypes(Object(App\Model\Table\StockPricesTable))
+#10 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Table.php(1758): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(App\Model\Table\StockPricesTable))
+#11 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Table.php(1350): Cake\ORM\Table->query()
+#12 C:\xampp\php\topFXtestv1\src\Shell\StockIntegrationShell.php(33): Cake\ORM\Table->find('all', Array)
+#13 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\Shell.php(512): App\Shell\StockIntegrationShell->show()
+#14 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(342): Cake\Console\Shell->runCommand(Array, true)
+#15 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(App\Shell\StockIntegrationShell), Array)
+#16 C:\xampp\php\topFXtestv1\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#17 {main}
+
+
+2018-10-02 20:23:29 Error: [Error] Class 'App\Shell\PDO' not found in C:\xampp\php\topFXtestv1\src\Shell\StockIntegrationShell.php on line 31
+Stack Trace:
+#0 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\Shell.php(512): App\Shell\StockIntegrationShell->show()
+#1 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(342): Cake\Console\Shell->runCommand(Array, true)
+#2 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(App\Shell\StockIntegrationShell), Array)
+#3 C:\xampp\php\topFXtestv1\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#4 {main}
+
+
+2018-10-02 20:24:01 Error: [Error] Class 'App\Shell\PDO' not found in C:\xampp\php\topFXtestv1\src\Shell\StockIntegrationShell.php on line 31
+Stack Trace:
+#0 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\Shell.php(512): App\Shell\StockIntegrationShell->show()
+#1 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(342): Cake\Console\Shell->runCommand(Array, true)
+#2 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(App\Shell\StockIntegrationShell), Array)
+#3 C:\xampp\php\topFXtestv1\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#4 {main}
+
+
+2018-10-02 20:38:30 Error: [Error] Class 'App\Shell\App' not found in C:\xampp\php\topFXtestv1\src\Shell\StockIntegrationShell.php on line 22
+Stack Trace:
+#0 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(340): App\Shell\StockIntegrationShell->initialize()
+#1 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(App\Shell\StockIntegrationShell), Array)
+#2 C:\xampp\php\topFXtestv1\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#3 {main}
+
+
+2018-10-02 20:38:45 Error: [Error] Class 'App\Shell\StockPricesController' not found in C:\xampp\php\topFXtestv1\src\Shell\StockIntegrationShell.php on line 25
+Stack Trace:
+#0 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(340): App\Shell\StockIntegrationShell->initialize()
+#1 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(App\Shell\StockIntegrationShell), Array)
+#2 C:\xampp\php\topFXtestv1\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#3 {main}
+
+
+2018-10-02 20:39:59 Error: [Error] Class 'App\Shell\App' not found in C:\xampp\php\topFXtestv1\src\Shell\StockIntegrationShell.php on line 22
+Stack Trace:
+#0 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(340): App\Shell\StockIntegrationShell->initialize()
+#1 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(App\Shell\StockIntegrationShell), Array)
+#2 C:\xampp\php\topFXtestv1\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#3 {main}
+
+
+2018-10-02 20:40:19 Error: [Error] Class 'App\Shell\App' not found in C:\xampp\php\topFXtestv1\src\Shell\StockIntegrationShell.php on line 7
+Stack Trace:
+#0 C:\xampp\php\topFXtestv1\vendor\composer\ClassLoader.php(444): include()
+#1 C:\xampp\php\topFXtestv1\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\xampp\\php\\to...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Shell\\Stock...')
+#3 [internal function]: spl_autoload_call('App\\Shell\\Stock...')
+#4 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandScanner.php(134): is_subclass_of('App\\Shell\\Stock...', 'Cake\\Console\\Sh...')
+#5 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandScanner.php(66): Cake\Console\CommandScanner->scanDir('C:\\xampp\\php\\to...', 'App\\Shell\\', '', Array)
+#6 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandCollection.php(218): Cake\Console\CommandScanner->scanApp()
+#7 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Http\BaseApplication.php(206): Cake\Console\CommandCollection->autoDiscover()
+#8 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(142): Cake\Http\BaseApplication->console(Object(Cake\Console\CommandCollection))
+#9 C:\xampp\php\topFXtestv1\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#10 {main}
+
+
+2018-10-02 20:43:20 Error: [Error] Class 'App\Shell\App' not found in C:\xampp\php\topFXtestv1\src\Shell\StockIntegrationShell.php on line 7
+Stack Trace:
+#0 C:\xampp\php\topFXtestv1\vendor\composer\ClassLoader.php(444): include()
+#1 C:\xampp\php\topFXtestv1\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\xampp\\php\\to...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Shell\\Stock...')
+#3 [internal function]: spl_autoload_call('App\\Shell\\Stock...')
+#4 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandScanner.php(134): is_subclass_of('App\\Shell\\Stock...', 'Cake\\Console\\Sh...')
+#5 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandScanner.php(66): Cake\Console\CommandScanner->scanDir('C:\\xampp\\php\\to...', 'App\\Shell\\', '', Array)
+#6 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandCollection.php(218): Cake\Console\CommandScanner->scanApp()
+#7 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Http\BaseApplication.php(206): Cake\Console\CommandCollection->autoDiscover()
+#8 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(142): Cake\Http\BaseApplication->console(Object(Cake\Console\CommandCollection))
+#9 C:\xampp\php\topFXtestv1\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#10 {main}
+
+
+2018-10-02 20:53:37 Error: [Error] Class 'App\Controller\Component\Stocksave' not found in C:\xampp\php\topFXtestv1\src\Shell\StockIntegrationShell.php on line 29
+Stack Trace:
+#0 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(340): App\Shell\StockIntegrationShell->initialize()
+#1 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(App\Shell\StockIntegrationShell), Array)
+#2 C:\xampp\php\topFXtestv1\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#3 {main}
+
+
+2018-10-02 20:55:39 Error: [Error] Class 'App\Shell\App' not found in C:\xampp\php\topFXtestv1\src\Shell\StockIntegrationShell.php on line 28
+Stack Trace:
+#0 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(340): App\Shell\StockIntegrationShell->initialize()
+#1 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(App\Shell\StockIntegrationShell), Array)
+#2 C:\xampp\php\topFXtestv1\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#3 {main}
+
+
+2018-10-02 21:01:20 Error: [Error] Class 'App\Shell\ClassRegistry' not found in C:\xampp\php\topFXtestv1\src\Shell\StockIntegrationShell.php on line 40
+Stack Trace:
+#0 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\Shell.php(512): App\Shell\StockIntegrationShell->show()
+#1 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(342): Cake\Console\Shell->runCommand(Array, true)
+#2 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(App\Shell\StockIntegrationShell), Array)
+#3 C:\xampp\php\topFXtestv1\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#4 {main}
+
+
+2018-10-03 08:30:32 Error: [RuntimeException] Unknown command `cake stocksave`. Run `cake --help` to get the list of valid commands. in C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php on line 321
+Stack Trace:
+#0 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(159): Cake\Console\CommandRunner->resolveName(Object(Cake\Console\CommandCollection), Object(Cake\Console\ConsoleIo), 'stocksave')
+#1 C:\xampp\php\topFXtestv1\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#2 {main}
+
+
+2018-10-03 08:33:21 Error: [RuntimeException] Unknown command `cake stock_save`. Run `cake --help` to get the list of valid commands. in C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php on line 321
+Stack Trace:
+#0 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(159): Cake\Console\CommandRunner->resolveName(Object(Cake\Console\CommandCollection), Object(Cake\Console\ConsoleIo), 'stock_save')
+#1 C:\xampp\php\topFXtestv1\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#2 {main}
+
+
+2018-10-03 08:33:27 Error: [RuntimeException] Unknown command `cake stock_save`. Run `cake --help` to get the list of valid commands. in C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php on line 321
+Stack Trace:
+#0 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(159): Cake\Console\CommandRunner->resolveName(Object(Cake\Console\CommandCollection), Object(Cake\Console\ConsoleIo), 'stock_save')
+#1 C:\xampp\php\topFXtestv1\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#2 {main}
+
+
+2018-10-03 08:37:36 Error: [ParseError] syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in C:\xampp\php\topFXtestv1\src\Command\StocksCommand.php on line 30
+Stack Trace:
+#0 C:\xampp\php\topFXtestv1\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\xampp\\php\\to...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Command\\Sto...')
+#2 [internal function]: spl_autoload_call('App\\Command\\Sto...')
+#3 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandScanner.php(134): is_subclass_of('App\\Command\\Sto...', 'Cake\\Console\\Sh...')
+#4 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandScanner.php(72): Cake\Console\CommandScanner->scanDir('C:\\xampp\\php\\to...', 'App\\Command\\', '', Array)
+#5 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandCollection.php(218): Cake\Console\CommandScanner->scanApp()
+#6 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Http\BaseApplication.php(206): Cake\Console\CommandCollection->autoDiscover()
+#7 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(142): Cake\Http\BaseApplication->console(Object(Cake\Console\CommandCollection))
+#8 C:\xampp\php\topFXtestv1\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#9 {main}
+
+
+2018-10-03 08:37:50 Error: [ParseError] syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in C:\xampp\php\topFXtestv1\src\Command\StocksCommand.php on line 30
+Stack Trace:
+#0 C:\xampp\php\topFXtestv1\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\xampp\\php\\to...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Command\\Sto...')
+#2 [internal function]: spl_autoload_call('App\\Command\\Sto...')
+#3 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandScanner.php(134): is_subclass_of('App\\Command\\Sto...', 'Cake\\Console\\Sh...')
+#4 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandScanner.php(72): Cake\Console\CommandScanner->scanDir('C:\\xampp\\php\\to...', 'App\\Command\\', '', Array)
+#5 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandCollection.php(218): Cake\Console\CommandScanner->scanApp()
+#6 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Http\BaseApplication.php(206): Cake\Console\CommandCollection->autoDiscover()
+#7 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(142): Cake\Http\BaseApplication->console(Object(Cake\Console\CommandCollection))
+#8 C:\xampp\php\topFXtestv1\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#9 {main}
+
+
+2018-10-03 08:38:33 Error: [ParseError] syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in C:\xampp\php\topFXtestv1\src\Command\StocksCommand.php on line 20
+Stack Trace:
+#0 C:\xampp\php\topFXtestv1\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\xampp\\php\\to...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Command\\Sto...')
+#2 [internal function]: spl_autoload_call('App\\Command\\Sto...')
+#3 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandScanner.php(134): is_subclass_of('App\\Command\\Sto...', 'Cake\\Console\\Sh...')
+#4 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandScanner.php(72): Cake\Console\CommandScanner->scanDir('C:\\xampp\\php\\to...', 'App\\Command\\', '', Array)
+#5 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandCollection.php(218): Cake\Console\CommandScanner->scanApp()
+#6 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Http\BaseApplication.php(206): Cake\Console\CommandCollection->autoDiscover()
+#7 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(142): Cake\Http\BaseApplication->console(Object(Cake\Console\CommandCollection))
+#8 C:\xampp\php\topFXtestv1\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#9 {main}
+
+
+2018-10-03 08:40:39 Error: [ParseError] syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in C:\xampp\php\topFXtestv1\src\Command\StocksCommand.php on line 20
+Stack Trace:
+#0 C:\xampp\php\topFXtestv1\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\xampp\\php\\to...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Command\\Sto...')
+#2 [internal function]: spl_autoload_call('App\\Command\\Sto...')
+#3 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandScanner.php(134): is_subclass_of('App\\Command\\Sto...', 'Cake\\Console\\Sh...')
+#4 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandScanner.php(72): Cake\Console\CommandScanner->scanDir('C:\\xampp\\php\\to...', 'App\\Command\\', '', Array)
+#5 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandCollection.php(218): Cake\Console\CommandScanner->scanApp()
+#6 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Http\BaseApplication.php(206): Cake\Console\CommandCollection->autoDiscover()
+#7 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(142): Cake\Http\BaseApplication->console(Object(Cake\Console\CommandCollection))
+#8 C:\xampp\php\topFXtestv1\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#9 {main}
+
+
+2018-10-03 08:41:29 Error: [PDOException] SQLSTATE[HY000] [14] unable to open database file in C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Driver.php on line 92
+Stack Trace:
+#0 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Driver.php(92): PDO->__construct('sqlite:\\topFXte...', '', '', Array)
+#1 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Driver\Sqlite.php(70): Cake\Database\Driver->_connect('sqlite:\\topFXte...', Array)
+#2 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php(45): Cake\Database\Driver\Sqlite->connect()
+#3 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Dialect\SqliteDialectTrait.php(165): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Sqlite))
+#4 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(52): Cake\Database\Driver\Sqlite->schemaDialect()
+#5 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(42): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Connection.php(391): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Table.php(547): Cake\Database\Connection->getSchemaCollection()
+#8 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Query.php(271): Cake\ORM\Table->getSchema()
+#9 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Query.php(169): Cake\ORM\Query->addDefaultTypes(Object(App\Model\Table\StockPricesTable))
+#10 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Table.php(1758): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(App\Model\Table\StockPricesTable))
+#11 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Table.php(1350): Cake\ORM\Table->query()
+#12 C:\xampp\php\topFXtestv1\src\Command\StocksCommand.php(20): Cake\ORM\Table->find('all')
+#13 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\Command.php(183): App\Command\StocksCommand->execute(Object(Cake\Console\Arguments), Object(Cake\Console\ConsoleIo))
+#14 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(167): Cake\Console\Command->run(Array, Object(Cake\Console\ConsoleIo))
+#15 C:\xampp\php\topFXtestv1\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#16 {main}
+
+
+2018-10-03 08:43:39 Error: [PDOException] SQLSTATE[HY000]: General error: 1 no such table: stock_prices in C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Driver\Sqlite.php on line 107
+Stack Trace:
+#0 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Driver\Sqlite.php(107): PDO->prepare('SELECT (COUNT(*...')
+#1 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Connection.php(275): Cake\Database\Driver\Sqlite->prepare(Object(Cake\ORM\Query))
+#2 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php(68): Cake\Database\Connection->Cake\Database\{closure}()
+#3 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Connection.php(282): Cake\Core\Retry\CommandRetry->run(Object(Closure))
+#4 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Connection.php(332): Cake\Database\Connection->prepare(Object(Cake\ORM\Query))
+#5 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php(68): Cake\Database\Connection->Cake\Database\{closure}()
+#6 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Connection.php(337): Cake\Core\Retry\CommandRetry->run(Object(Closure))
+#7 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Query.php(219): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#8 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Query.php(958): Cake\Database\Query->execute()
+#9 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Query.php(908): Cake\ORM\Query->_performCount()
+#10 C:\xampp\php\topFXtestv1\src\Command\StocksCommand.php(21): Cake\ORM\Query->count()
+#11 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\Command.php(183): App\Command\StocksCommand->execute(Object(Cake\Console\Arguments), Object(Cake\Console\ConsoleIo))
+#12 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(167): Cake\Console\Command->run(Array, Object(Cake\Console\ConsoleIo))
+#13 C:\xampp\php\topFXtestv1\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#14 {main}
+
+
+2018-10-03 08:43:53 Error: [PDOException] SQLSTATE[HY000] [14] unable to open database file in C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Driver.php on line 92
+Stack Trace:
+#0 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Driver.php(92): PDO->__construct('sqlite:\\topFXte...', '', '', Array)
+#1 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Driver\Sqlite.php(70): Cake\Database\Driver->_connect('sqlite:\\topFXte...', Array)
+#2 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php(45): Cake\Database\Driver\Sqlite->connect()
+#3 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Dialect\SqliteDialectTrait.php(165): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Sqlite))
+#4 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(52): Cake\Database\Driver\Sqlite->schemaDialect()
+#5 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(42): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Database\Connection.php(391): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Table.php(547): Cake\Database\Connection->getSchemaCollection()
+#8 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Query.php(271): Cake\ORM\Table->getSchema()
+#9 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Query.php(169): Cake\ORM\Query->addDefaultTypes(Object(App\Model\Table\StockPricesTable))
+#10 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Table.php(1758): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(App\Model\Table\StockPricesTable))
+#11 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\ORM\Table.php(1350): Cake\ORM\Table->query()
+#12 C:\xampp\php\topFXtestv1\src\Command\StocksCommand.php(20): Cake\ORM\Table->find('all')
+#13 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\Command.php(183): App\Command\StocksCommand->execute(Object(Cake\Console\Arguments), Object(Cake\Console\ConsoleIo))
+#14 C:\xampp\php\topFXtestv1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(167): Cake\Console\Command->run(Array, Object(Cake\Console\ConsoleIo))
+#15 C:\xampp\php\topFXtestv1\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#16 {main}
+
+
