@@ -6,7 +6,7 @@ use Cake\Console\Command;
 use Cake\Console\ConsoleIo;
 use Cake\Console\ConsoleOptionParser;
 
-class StocksCommand extends Command
+class IntegrateStocksDataCommand extends Command
 {
    public function initialize()
    {
