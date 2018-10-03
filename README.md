@@ -23,11 +23,16 @@ Functional Details:
 
    1. With this link user can able to see OHLC chart of various stock available in dropdown, 
    
-        http://localhost/topFXtestv1/charts
+       http://localhost/topFXtestv1/charts
+       Now web can open by using below command,
+       cake server -H 0.0.0.0 -p 8000
+         
+       This is render to http://localhost:8000/charts
 
    2. Left sidebar there is one link "Run to Save Stocks Data", While click on this link, 
        stocks prices will get save from 1st november to till now, and once process will get completed, it will show all logs.
-
+      Below link can scrap and save data in sqlite
+      http://localhost:8000/StockPrices/stockIntegration
 ----------------------------------------------------------------------------------------------------------------------
 
 Technical Details:
